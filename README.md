@@ -10,4 +10,4 @@ Im Rahmen dieser Arbeit sollte ich ein Web-Appliaktion erstellen. auf die ein Us
   -Projekt löschen 
   -Projekt editieren
   
- Andere Functionen werden im Laufe hinzugefügt.
+Andere Funktionen werden im Laufe hinzugefügt werden.
