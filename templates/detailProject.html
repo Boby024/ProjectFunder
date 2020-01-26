@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>detail project</title>
+</head>
+<body>
+
+<h1><button id="homeBtn" class="homeBtn" style="margin-right: 200px;color: blue;background-color: red;color: white">Home</button>
+    details to project: Informationen
+</h1>
+<div class="element" style="height: 250px;width: 250px;margin-bottom: 70px" >
+    <p id="image"></p>
+    <p id="titel"></p>
+    <p id="ersteller"></p>
+</div>
+
+<div class="arrageObject">
+    <p id="finanzierungslimit"> <strong>Finanzierungslimit:</strong> </p>
+    <p id="spendenbetrag"><strong>Aktuelle Spendensumme:</strong> </p>
+    <p id="status"><strong>Status:</strong> </p>
+    <p id="vorgaenger"><strong>Vorgänger-Projekt: </strong></p>
+</div>
+<hr width="400" style="border: 2px dashed #C0C0C0" color="#FFFFFF" size="6">
+
+<div class="arrageObject">
+    <h2>Aktionsleite</h2>
+    <div id="conteneurBtnDetail">
+        <div class="elementBtnDetail"><button class="arrBtnDetail" style="background-color: green;color: white" onclick="spenden()">Spenden</button></div>
+        <div class="elementBtnDetail"><button class="arrBtnDetail" style="background-color: red; color: white;" id="loeschen">Projekt Löschen</button></div>
+        <div class="elementBtnDetail"><button class="arrBtnDetail" style="background-color: blue; color: white;" id="editieren">Projekt Editieren</button></div>
+    </div>
+</div>
+<hr width="400" style="border: 2px dashed #C0C0C0" color="#FFFFFF" size="6">
+
+<div class="arrageObject">
+    <h2>Liste der Spender</h2>
+    <di id="spender"> </di>
+</div>
+<hr width="400" style="border: 2px dashed #C0C0C0" color="#FFFFFF" size="6">
+<div class="arrageObject">
+    <h2>Kommentare</h2>
+    <di>muster</di>
+</div>
+
+<script src="detailProject.js"></script>
+</body>
+</html>

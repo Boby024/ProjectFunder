@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>projekt erstellen</title>
+</head>
+<body>
+<h1><button id="homeBtn" class="homeBtn" style="margin-right: 200px;color: blue;background-color: red;color: white">Home</button>
+    Projekt erstellen
+</h1>
+<div id="content">
+    <form name="myform" >
+        <p>Titel <input type="text" name="titel"></p>
+        <p>Finanzierungslimit <input type="number" name="finanzierungslimit"></p>
+        <p>Kategorie
+            <input type="radio" name="kategorie" value="Health & Wellness">Health & Wellness
+            <input type="radio" name="kategorie" value="Art & Creative Works">Art & Creative Works
+            <input type="radio" name="kategorie" value="Education">Education
+            <input type="radio" name="kategorie" value="Tech & Innovation">Tech & Innovation
+        </p>
+        <div>Vorgänger
+            <input type="radio" name="vorgaenger" value="Ubuntu Touch">Ubuntu Touch
+            <input type="radio" name="vorgaenger" value="Ubuntu Touch Pro">Ubuntu Touch Pro
+            <input type="radio" name="vorgaenger" value="Kein Vorgänger">Kein Vorgänger
+        </div>
+        <p>Beschreibung <textarea  name="beschreibung" cols="50px" rows="5px"></textarea></p>
+        <p><button class="btnSubmit" id="btnSubmit" class="btnSubmit">Erstellen</button></p>
+        <!-- <input class="btnSubmit" type="submit" value="Erstellen" >-->
+    </form>
+</div>
+
+<script src="projekt-erstellen.js"></script>
+</body>
+</html>
